@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <body>
+    <video src="./audio/noflix.mp3" autoplay="autoplay" controls muted="muted" id="audio" style="display:none"></video>
+    </body>
+</html>
+
+<script>
+    var audio = document.getElementById("audio");
+    audio.play();
+    audio.muted = true;
+
+    const disabledMute = document.getElementById("audio").muted = false;
+</script>
